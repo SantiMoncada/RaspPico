@@ -13,9 +13,7 @@ project(pico_rmii_ethernet)
 # initialize the Pico SDK
 pico_sdk_init()
 
-set(LWIP_PATH ${CMAKE_CURRENT_LIST_DIR}/lib/lwip)
-
-add_library(pico_lwip INTERFACE)
+set(LWIP_PATH ${PICO_SDK_PATH}/lib/lwip)
 
 target_sources(pico_lwip INTERFACE
     ${LWIP_PATH}/src/core/altcp.c
