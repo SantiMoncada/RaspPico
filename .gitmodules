@@ -1,3 +1,0 @@
-[submodule "CustomWebpage/lib/pico-rmii-ethernet"]
-	path = CustomWebpage/lib/pico-rmii-ethernet
-	url = https://github.com/sandeepmistry/pico-rmii-ethernet
